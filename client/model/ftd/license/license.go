@@ -20,10 +20,11 @@ const (
 	URLFilter Type = "URLFilter"
 
 	// FMC terms
-	Essentials     Type = "ESSENTIALS"
-	URL            Type = "URL"
-	IPS            Type = "IPS"
-	MalwareDefense Type = "MALWARE_DEFENSE"
+	Essentials         Type = "ESSENTIALS"
+	URL                Type = "URL"
+	IPS                Type = "IPS"
+	MalwareDefense     Type = "MALWARE_DEFENSE"
+	SecureClientVPNOnly Type = "SECURE_CLIENT_VPNOnly"
 )
 
 var All = []Type{
@@ -36,6 +37,7 @@ var All = []Type{
 	MalwareDefense,
 	URLFilter,
 	URL,
+	SecureClientVPNOnly,
 }
 
 var fmcToCdoLicenseNameMap = map[Type]Type{

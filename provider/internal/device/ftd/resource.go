@@ -104,7 +104,7 @@ func (r *Resource) Schema(ctx context.Context, req resource.SchemaRequest, resp 
 			},
 			"licenses": schema.SetAttribute{
 				ElementType:         types.StringType,
-				MarkdownDescription: "Comma-separated list of licenses to apply to this FTD. You must enable at least the \"BASE\" license. Allowed values are: [\"BASE\", \"CARRIER\", \"THREAT\", \"MALWARE\", \"URLFilter\",].",
+				MarkdownDescription: "Comma-separated list of licenses to apply to this FTD. You must enable at least the \"BASE\" license. Allowed values are: [\"BASE\", \"CARRIER\", \"THREAT\", \"MALWARE\", \"URLFilter\", \"SECURE_CLIENT_VPNOnly\"].",
 				Required:            true,
 				Validators: []validator.Set{
 					setvalidator.SizeAtLeast(1),
