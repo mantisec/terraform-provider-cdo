@@ -2,8 +2,8 @@ package usergroups
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
 	mapset "github.com/deckarep/golang-set/v2"
 )
 

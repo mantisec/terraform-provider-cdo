@@ -6,8 +6,8 @@ package connector
 import (
 	"context"
 	"fmt"
-	cdoClient "github.com/CiscoDevnet/terraform-provider-cdo/go-client"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/connector"
+	cdoClient "github.com/mantisec/terraform-provider-cdo/go-client"
+	"github.com/mantisec/terraform-provider-cdo/go-client/connector"
 	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"

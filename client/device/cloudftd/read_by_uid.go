@@ -3,9 +3,9 @@ package cloudftd
 import (
 	"context"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/device/tags"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/device/tags"
 )
 
 type ReadByUidInput struct {

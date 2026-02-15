@@ -3,8 +3,8 @@ package msp_tenant_users
 import (
 	"context"
 	"fmt"
-	cdoClient "github.com/CiscoDevnet/terraform-provider-cdo/go-client"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/msp/users"
+	cdoClient "github.com/mantisec/terraform-provider-cdo/go-client"
+	"github.com/mantisec/terraform-provider-cdo/go-client/msp/users"
 	"github.com/hashicorp/terraform-plugin-framework-validators/listvalidator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"
 	"github.com/hashicorp/terraform-plugin-framework/attr"

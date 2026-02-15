@@ -8,7 +8,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/provider"
+	"github.com/mantisec/terraform-provider-cdo/internal/provider"
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 )
 
@@ -38,7 +38,7 @@ func main() {
 	flag.Parse()
 
 	opts := providerserver.ServeOpts{
-		Address: "registry.terraform.io/CiscoDevNet/cisco-cdo-provider",
+		Address: "registry.terraform.io/mantisec/cdo",
 		Debug:   debug,
 	}
 

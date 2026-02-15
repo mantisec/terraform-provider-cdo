@@ -2,7 +2,7 @@ package msp_tenant_users_test
 
 import (
 	"fmt"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/acctest"
+	"github.com/mantisec/terraform-provider-cdo/internal/acctest"
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 	"strings"
 	"testing"

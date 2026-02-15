@@ -1,6 +1,6 @@
 package smartlicense
 
-import "github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/cloudfmc/internal"
+import "github.com/mantisec/terraform-provider-cdo/go-client/model/cloudfmc/internal"
 
 type SmartLicense struct {
 	Items  []Item `json:"items"`

@@ -2,11 +2,11 @@ package fmcconfig
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/cloudfmc/fmcconfig"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/ftd/license"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/ftd/tier"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/cloudfmc/fmcconfig"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/ftd/license"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/ftd/tier"
 )
 
 type CreateDeviceRecordInput struct {

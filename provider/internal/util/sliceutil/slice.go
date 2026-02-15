@@ -1,7 +1,7 @@
 package sliceutil
 
 import (
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/util/goutil"
+	"github.com/mantisec/terraform-provider-cdo/internal/util/goutil"
 )
 
 // Map takes a slice and a function, apply the function to each element in the slice, and return the mapped slice.

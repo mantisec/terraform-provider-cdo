@@ -2,10 +2,10 @@ package connectoronboarding
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/connector"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/retry"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/device/status"
+	"github.com/mantisec/terraform-provider-cdo/go-client/connector"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/retry"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/device/status"
 )
 
 func UntilConnectorStatusIsActive(ctx context.Context, client http.Client, readInp connector.ReadByNameInput, readOutp *connector.ReadOutput) retry.Func {

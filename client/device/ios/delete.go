@@ -3,8 +3,8 @@ package ios
 import (
 	"context"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
 )
 
 type DeleteInput = device.DeleteInput

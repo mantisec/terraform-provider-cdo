@@ -2,7 +2,7 @@ package validators_test
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/validators"
+	"github.com/mantisec/terraform-provider-cdo/validators"
 	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/planmodifier"

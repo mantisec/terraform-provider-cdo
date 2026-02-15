@@ -3,10 +3,10 @@ package sec
 import (
 	"context"
 	"fmt"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/retry"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/statemachine"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/retry"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/statemachine"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
 	"time"
 )
 

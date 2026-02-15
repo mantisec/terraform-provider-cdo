@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/util/sliceutil"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/util/testutil"
+	"github.com/mantisec/terraform-provider-cdo/internal/util/sliceutil"
+	"github.com/mantisec/terraform-provider-cdo/internal/util/testutil"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/acctest"
+	"github.com/mantisec/terraform-provider-cdo/internal/acctest"
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 )
 

@@ -3,9 +3,9 @@ package fmcplatform
 import (
 	"context"
 	"fmt"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/cloudfmc/devicelicense"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/cloudfmc/devicelicense"
 )
 
 type ReadDeviceLicensesInput struct {

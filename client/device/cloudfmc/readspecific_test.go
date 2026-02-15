@@ -2,10 +2,10 @@ package cloudfmc_test
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudfmc"
-	internalHttp "github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/statemachine/state"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudfmc"
+	internalHttp "github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/statemachine/state"
 	"github.com/jarcoal/httpmock"
 	"github.com/stretchr/testify/assert"
 	"net/http"

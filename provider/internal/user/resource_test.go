@@ -3,7 +3,7 @@ package user_test
 import (
 	"testing"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/acctest"
+	"github.com/mantisec/terraform-provider-cdo/internal/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 )
 

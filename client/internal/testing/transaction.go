@@ -2,9 +2,9 @@ package testing
 
 import (
 	"fmt"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/publicapi/transaction"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/publicapi/transaction/transactionstatus"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/publicapi/transaction/transactiontype"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/publicapi/transaction"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/publicapi/transaction/transactionstatus"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/publicapi/transaction/transactiontype"
 	"time"
 )
 

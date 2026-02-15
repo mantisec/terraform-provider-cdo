@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/util"
+	"github.com/mantisec/terraform-provider-cdo/internal/util"
 	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/mapdefault"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/setdefault"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 
-	cdoClient "github.com/CiscoDevnet/terraform-provider-cdo/go-client"
+	cdoClient "github.com/mantisec/terraform-provider-cdo/go-client"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/planmodifier"

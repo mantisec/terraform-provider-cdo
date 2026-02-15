@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model"
 )
 
 func Update(ctx context.Context, client http.Client, updateInp UpdateUserInput) (*model.UserDetails, error) {

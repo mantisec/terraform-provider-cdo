@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/device/publicapilabels"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/device/tags"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/ftd/license"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/device/publicapilabels"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/device/tags"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/ftd/license"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudftd"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/ftd/tier"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/util"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudftd"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/ftd/tier"
+	"github.com/mantisec/terraform-provider-cdo/internal/util"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 )
 

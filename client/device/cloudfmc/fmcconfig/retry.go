@@ -3,9 +3,9 @@ package fmcconfig
 import (
 	"context"
 	"fmt"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/retry"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/cloudfmc/fmcconfig/fmctaskstatus"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/retry"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/cloudfmc/fmcconfig/fmctaskstatus"
 	"gopkg.in/errgo.v2/errors"
 	"time"
 )

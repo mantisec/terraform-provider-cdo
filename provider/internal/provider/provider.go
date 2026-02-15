@@ -6,33 +6,33 @@ package provider
 import (
 	"context"
 	"fmt"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/device/ftd/ftdversion"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/msp/msp_tenant"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/msp/msp_tenant_user_api_token"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/msp/msp_tenant_user_groups"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/msp/msp_tenant_users"
+	"github.com/mantisec/terraform-provider-cdo/internal/device/ftd/ftdversion"
+	"github.com/mantisec/terraform-provider-cdo/internal/msp/msp_tenant"
+	"github.com/mantisec/terraform-provider-cdo/internal/msp/msp_tenant_user_api_token"
+	"github.com/mantisec/terraform-provider-cdo/internal/msp/msp_tenant_user_groups"
+	"github.com/mantisec/terraform-provider-cdo/internal/msp/msp_tenant_users"
 	"os"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/connector"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/connector/connectoronboarding"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/connector/sec"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/connector/sec/seconboarding"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/service/duoadminpanel"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/tenantsettings"
+	"github.com/mantisec/terraform-provider-cdo/internal/connector"
+	"github.com/mantisec/terraform-provider-cdo/internal/connector/connectoronboarding"
+	"github.com/mantisec/terraform-provider-cdo/internal/connector/sec"
+	"github.com/mantisec/terraform-provider-cdo/internal/connector/sec/seconboarding"
+	"github.com/mantisec/terraform-provider-cdo/internal/service/duoadminpanel"
+	"github.com/mantisec/terraform-provider-cdo/internal/tenantsettings"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/cdfmc"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/device/ftd/ftdonboarding"
+	"github.com/mantisec/terraform-provider-cdo/internal/cdfmc"
+	"github.com/mantisec/terraform-provider-cdo/internal/device/ftd/ftdonboarding"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/device/ftd"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/tenant"
+	"github.com/mantisec/terraform-provider-cdo/internal/device/ftd"
+	"github.com/mantisec/terraform-provider-cdo/internal/tenant"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/user"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/user_api_token"
+	"github.com/mantisec/terraform-provider-cdo/internal/user"
+	"github.com/mantisec/terraform-provider-cdo/internal/user_api_token"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/device/ios"
+	"github.com/mantisec/terraform-provider-cdo/internal/device/ios"
 
-	cdoClient "github.com/CiscoDevnet/terraform-provider-cdo/go-client"
-	"github.com/CiscoDevnet/terraform-provider-cdo/validators"
+	cdoClient "github.com/mantisec/terraform-provider-cdo/go-client"
+	"github.com/mantisec/terraform-provider-cdo/validators"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/path"
@@ -42,7 +42,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/device/asa"
+	"github.com/mantisec/terraform-provider-cdo/internal/device/asa"
 )
 
 var _ provider.Provider = &CdoProvider{}

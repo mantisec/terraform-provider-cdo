@@ -3,10 +3,10 @@ package testing
 import (
 	"fmt"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/ios"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/device/publicapilabels"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/device/tags"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/devicetype"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/ios"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/device/publicapilabels"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/device/tags"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/devicetype"
 )
 
 func (m Model) CreateIosInput() ios.CreateInput {

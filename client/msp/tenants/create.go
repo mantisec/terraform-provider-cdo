@@ -2,9 +2,9 @@ package tenants
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/publicapi"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/publicapi"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
 )
 
 func Create(ctx context.Context, client http.Client, createInp MspCreateTenantInput) (*MspTenantOutput, *CreateError) {

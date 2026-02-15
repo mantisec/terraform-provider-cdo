@@ -3,9 +3,9 @@ package connector
 import (
 	"context"
 	"errors"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/retry"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/retry"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
 	"time"
 )
 

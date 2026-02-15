@@ -2,7 +2,7 @@ package connectoronboarding
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
 )
 
 type DeleteInput struct {

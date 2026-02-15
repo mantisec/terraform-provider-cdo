@@ -2,7 +2,7 @@ package cdfmc
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudfmc"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudfmc"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 )
 

@@ -2,14 +2,14 @@ package duoadminpanel_test
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/duoadminpanel"
-	internalTesting "github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/testing"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/duoadminpanel"
+	internalTesting "github.com/mantisec/terraform-provider-cdo/go-client/internal/testing"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
 
-	internalHttp "github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
+	internalHttp "github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
 	"github.com/jarcoal/httpmock"
 )
 

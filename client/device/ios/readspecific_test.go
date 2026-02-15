@@ -2,14 +2,14 @@ package ios_test
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/ios"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/statemachine/state"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/ios"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/statemachine/state"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
 	"github.com/jarcoal/httpmock"
 )
 

@@ -2,7 +2,7 @@ package testing
 
 import (
 	"fmt"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/ftd/tier"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/ftd/tier"
 	"github.com/google/uuid"
 	"math/rand"
 	"time"

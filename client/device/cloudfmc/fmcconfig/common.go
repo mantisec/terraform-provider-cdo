@@ -1,6 +1,6 @@
 package fmcconfig
 
-import "github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/cloudfmc/fmcconfig"
+import "github.com/mantisec/terraform-provider-cdo/go-client/model/cloudfmc/fmcconfig"
 
 type Item = fmcconfig.Item
 

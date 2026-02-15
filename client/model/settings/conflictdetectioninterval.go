@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/sliceutil"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/sliceutil"
 )
 
 type ConflictDetectionInterval string

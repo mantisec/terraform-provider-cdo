@@ -2,9 +2,9 @@ package user
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/user/auth"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/user/auth"
 )
 
 type CreateSystemTokenInput struct {

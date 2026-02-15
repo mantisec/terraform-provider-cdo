@@ -7,17 +7,17 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudfmc"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudfmc/fmcplatform"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/cdo"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/publicapi"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/cloudfmc/accesspolicies"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/device/publicapilabels"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/devicetype"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/ftd/license"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/ftd/tier"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudfmc"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudfmc/fmcplatform"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/cdo"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/publicapi"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/cloudfmc/accesspolicies"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/device/publicapilabels"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/devicetype"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/ftd/license"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/ftd/tier"
 )
 
 type CreateInput struct {

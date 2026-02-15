@@ -2,9 +2,9 @@ package connector_test
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/connector"
-	internalHttp "github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/connector"
+	internalHttp "github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"testing"

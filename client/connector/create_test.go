@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/connector"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/user"
+	"github.com/mantisec/terraform-provider-cdo/go-client/connector"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/user"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/jarcoal/httpmock"

@@ -3,17 +3,17 @@ package asa
 import (
 	"context"
 	"fmt"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/connector"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/asa/asaconfig"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/device/tags"
+	"github.com/mantisec/terraform-provider-cdo/go-client/connector"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/asa/asaconfig"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/device/tags"
 	"strings"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/retry"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/retry"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
 )
 
 type UpdateInput struct {

@@ -1,6 +1,6 @@
 package cloudftd
 
-import "github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/device/tags"
+import "github.com/mantisec/terraform-provider-cdo/go-client/model/device/tags"
 
 type ReadOutputBuilder struct {
 	readOutput *ReadOutput

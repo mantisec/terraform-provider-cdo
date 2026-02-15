@@ -1,7 +1,7 @@
 package msp_tenant_user_groups_test
 
 import (
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/acctest"
+	"github.com/mantisec/terraform-provider-cdo/internal/acctest"
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 	"testing"
 )

@@ -4,14 +4,14 @@ import (
 	"context"
 	"time"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudfmc"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudfmc/fmcappliance"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudfmc/fmcplatform"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/retry"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/device/tags"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/ftd/license"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudfmc"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudfmc/fmcappliance"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudfmc/fmcplatform"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/retry"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/device/tags"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/ftd/license"
 )
 
 type UpdateInput struct {

@@ -3,11 +3,11 @@ package iosconfig
 import (
 	"context"
 	"encoding/json"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/crypto"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/crypto"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
 )
 
 type UpdateInput struct {

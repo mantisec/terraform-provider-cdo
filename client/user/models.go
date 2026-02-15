@@ -1,7 +1,7 @@
 package user
 
 import (
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model"
 )
 
 type CreateUserInput struct {

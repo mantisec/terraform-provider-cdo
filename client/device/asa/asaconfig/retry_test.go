@@ -3,16 +3,16 @@ package asaconfig_test
 import (
 	"context"
 	"fmt"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/asa/asaconfig"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/statemachine/state"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/asa/asaconfig"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/statemachine/state"
 	"github.com/stretchr/testify/assert"
 	h "net/http"
 	"testing"
 	"time"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/retry"
-	internalTesting "github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/testing"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/retry"
+	internalTesting "github.com/mantisec/terraform-provider-cdo/go-client/internal/testing"
 	"github.com/jarcoal/httpmock"
 )
 

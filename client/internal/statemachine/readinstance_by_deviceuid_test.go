@@ -2,9 +2,9 @@ package statemachine_test
 
 import (
 	"context"
-	internalHttp "github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/statemachine"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
+	internalHttp "github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/statemachine"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
 	"github.com/jarcoal/httpmock"
 	"github.com/stretchr/testify/assert"
 	"net/http"

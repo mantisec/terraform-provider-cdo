@@ -3,8 +3,8 @@ package tenantsettings_test
 import (
 	"testing"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/settings"
-	"github.com/CiscoDevnet/terraform-provider-cdo/internal/acctest"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/settings"
+	"github.com/mantisec/terraform-provider-cdo/internal/acctest"
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 )
 

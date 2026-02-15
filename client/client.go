@@ -4,32 +4,32 @@ package client
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/msp/tenants"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/msp/usergroups"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/msp/users"
+	"github.com/mantisec/terraform-provider-cdo/go-client/msp/tenants"
+	"github.com/mantisec/terraform-provider-cdo/go-client/msp/usergroups"
+	"github.com/mantisec/terraform-provider-cdo/go-client/msp/users"
 	"net/http"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/connector/connectoronboarding"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/connector/sec"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/connector/sec/seconboarding"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/duoadminpanel"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/settings"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/settings/tenantsettings"
+	"github.com/mantisec/terraform-provider-cdo/go-client/connector/connectoronboarding"
+	"github.com/mantisec/terraform-provider-cdo/go-client/connector/sec"
+	"github.com/mantisec/terraform-provider-cdo/go-client/connector/sec/seconboarding"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/duoadminpanel"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/settings"
+	"github.com/mantisec/terraform-provider-cdo/go-client/settings/tenantsettings"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/connector"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/asa/asaconfig"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudfmc"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudftd"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudftd/cloudftdonboarding"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/genericssh"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/tenant"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/user"
+	"github.com/mantisec/terraform-provider-cdo/go-client/connector"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/asa/asaconfig"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudfmc"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudftd"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudftd/cloudftdonboarding"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/genericssh"
+	"github.com/mantisec/terraform-provider-cdo/go-client/tenant"
+	"github.com/mantisec/terraform-provider-cdo/go-client/user"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/ios"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/ios"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/asa"
-	internalhttp "github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/asa"
+	internalhttp "github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
 )
 
 type Client struct {

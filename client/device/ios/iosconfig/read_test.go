@@ -2,12 +2,12 @@ package iosconfig_test
 
 import (
 	"context"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/ios/iosconfig"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/statemachine/state"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/ios/iosconfig"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/statemachine/state"
 	"testing"
 	"time"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
 	"github.com/jarcoal/httpmock"
 	"github.com/stretchr/testify/assert"
 )

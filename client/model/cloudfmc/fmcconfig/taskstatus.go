@@ -1,8 +1,8 @@
 package fmcconfig
 
 import (
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/cloudfmc/fmcconfig/fmctaskstatus"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/cloudfmc/internal"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/cloudfmc/fmcconfig/fmctaskstatus"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/cloudfmc/internal"
 )
 
 type TaskStatus struct {

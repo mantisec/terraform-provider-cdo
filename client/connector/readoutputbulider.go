@@ -3,8 +3,8 @@ package connector
 import (
 	"crypto/rand"
 	"crypto/rsa"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/crypto"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/crypto"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model"
 )
 
 type sdcReadOutputBuilder struct {

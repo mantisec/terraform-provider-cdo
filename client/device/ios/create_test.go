@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/ios"
-	internalHttp "github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/publicapi/transaction/transactiontype"
-	internalTesting "github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/testing"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/ios"
+	internalHttp "github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/publicapi/transaction/transactiontype"
+	internalTesting "github.com/mantisec/terraform-provider-cdo/go-client/internal/testing"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/jarcoal/httpmock"

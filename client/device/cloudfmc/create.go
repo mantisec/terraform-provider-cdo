@@ -3,14 +3,14 @@ package cloudfmc
 import (
 	"context"
 	"errors"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/application"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/goutil"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/retry"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/application/applicationstatus"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/devicetype"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/application"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/goutil"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/retry"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/application/applicationstatus"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/devicetype"
 	"time"
 )
 

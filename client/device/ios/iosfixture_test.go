@@ -2,12 +2,12 @@ package ios_test
 
 import (
 	"fmt"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/connector"
+	"github.com/mantisec/terraform-provider-cdo/go-client/connector"
 	"net/http"
 	"testing"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device"
-	internalTesting "github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/testing"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device"
+	internalTesting "github.com/mantisec/terraform-provider-cdo/go-client/internal/testing"
 	"github.com/jarcoal/httpmock"
 )
 

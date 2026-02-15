@@ -1,19 +1,19 @@
 package cloudftdonboarding_test
 
 import (
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudfmc/fmcconfig"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudfmc/fmcplatform"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/cloudftd"
-	fmcconfig2 "github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/cloudfmc/fmcconfig"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/cloudfmc/fmcconfig/fmctaskstatus"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/cloudfmc/fmcdomain"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/devicetype"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/ftd/license"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/ftd/tier"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/statemachine/state"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/user/auth"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/user/auth/role"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudfmc/fmcconfig"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudfmc/fmcplatform"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/cloudftd"
+	fmcconfig2 "github.com/mantisec/terraform-provider-cdo/go-client/model/cloudfmc/fmcconfig"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/cloudfmc/fmcconfig/fmctaskstatus"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/cloudfmc/fmcdomain"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/devicetype"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/ftd/license"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/ftd/tier"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/statemachine/state"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/user/auth"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/user/auth/role"
 )
 
 const (

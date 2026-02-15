@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
 )
 
 func GenerateApiToken(ctx context.Context, client http.Client, generateApiTokenInp GenerateApiTokenInput) (*ApiTokenResponse, error) {

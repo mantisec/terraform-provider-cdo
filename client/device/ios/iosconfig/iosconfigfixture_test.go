@@ -2,7 +2,7 @@ package iosconfig_test
 
 import (
 	"fmt"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/ios/iosconfig"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/ios/iosconfig"
 	"net/http"
 
 	"github.com/jarcoal/httpmock"

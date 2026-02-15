@@ -1,6 +1,6 @@
 package fmcplatform
 
-import "github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/ftd/license"
+import "github.com/mantisec/terraform-provider-cdo/go-client/model/ftd/license"
 
 type UpdateDeviceLicensesInputBuilder struct {
 	updateDeviceLicensesInput *UpdateDeviceLicensesInput

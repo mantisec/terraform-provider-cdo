@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/device/duoadminpanel"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/url"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/device/tags"
+	"github.com/mantisec/terraform-provider-cdo/go-client/device/duoadminpanel"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/url"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/device/tags"
 	"github.com/stretchr/testify/assert"
 
-	internalHttp "github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
+	internalHttp "github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
 	"github.com/jarcoal/httpmock"
 )
 

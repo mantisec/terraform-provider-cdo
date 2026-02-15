@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/http"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/http"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model"
 )
 
 func Create(ctx context.Context, client http.Client, createInp CreateUserInput) (*CreateUserOutput, error) {

@@ -4,7 +4,7 @@ package url
 import (
 	"fmt"
 
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/devicetype"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/devicetype"
 )
 
 func ReadDevice(baseUrl string, uid string) string {

@@ -1,9 +1,9 @@
 package testing
 
 import (
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/connector"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/device/status"
+	"github.com/mantisec/terraform-provider-cdo/go-client/connector"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/device/status"
 )
 
 func (m Model) CdgReadOutput() connector.ReadOutput {

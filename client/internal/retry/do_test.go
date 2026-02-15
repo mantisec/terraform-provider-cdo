@@ -3,7 +3,7 @@ package retry_test
 import (
 	"context"
 	"fmt"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/internal/retry"
+	"github.com/mantisec/terraform-provider-cdo/go-client/internal/retry"
 	"github.com/stretchr/testify/assert"
 	"log"
 	"testing"

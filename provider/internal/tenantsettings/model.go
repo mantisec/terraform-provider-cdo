@@ -1,8 +1,8 @@
 package tenantsettings
 
 import (
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/model/settings"
-	"github.com/CiscoDevnet/terraform-provider-cdo/go-client/settings/tenantsettings"
+	"github.com/mantisec/terraform-provider-cdo/go-client/model/settings"
+	"github.com/mantisec/terraform-provider-cdo/go-client/settings/tenantsettings"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 )
 
